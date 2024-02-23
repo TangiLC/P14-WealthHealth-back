@@ -322,6 +322,7 @@
 			"state": "New York"
 		},
 		{
+			"id": "WILGAT551028bb0v36w8u",
 			"firstName": "William",
 			"lastName": "Gates",
 			"dateOfBirth": "1955-10-28",
@@ -329,8 +330,7 @@
 			"street": "7400 NE 18th St",
 			"city": "Medina",
 			"zipCode": "98039",
-			"state": "Washington",
-			"id": "WILGAT870920v6w8u"
+			"state": "Washington"
 		}
 	]
 }

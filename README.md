@@ -1,11 +1,12 @@
 # Back-end du projet 14 OpenClassrooms (Wealth Health HRnet)
 
 ![Wealth Health Logo](./data/WH_logo.png)
+
 Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end.
 
 ## Prérequis DOCKER
 
-Ce back-end peut être containeurisé avec Docker. Vous pouvez le télécharger et l'installer à partir du site officiel de Docker : [Docker](https://www.docker.com/get-started)
+Ce back-end peut être containeurisé avec Docker. Vous pouvez télécharger puis l'installer à partir du site officiel de Docker : [Docker](https://www.docker.com/get-started)
 
 ## Étapes à suivre Avec Docker
 
@@ -17,7 +18,7 @@ git clone https://github.com/TangiLC/P14-WealthHealth-back
 
 2. **Création de l'image avec DockerFile**
 
-Dans le terminal, lancer la commande
+Dans le terminal, taper la commande suivante pour créer le build
 
 ```bash
 docker build -t p14_back .
@@ -27,7 +28,7 @@ docker build -t p14_back .
 
 3. **Lancement de l'application avec DockerCompose**
 
-Dans le terminal, lancer la commande
+Dans le terminal, taper la commande suivante pour démarrer l'app dans le container
 
 ```bash
 docker-compose up
