@@ -3,7 +3,7 @@ const router = express.Router();
 const fs = require("fs").promises;
 const path = require("path");
 
-const filePath = path.join(__dirname, "employees.json");
+const filePath = path.join(__dirname, "../data/employees.json");
 
 // Route pour récupérer tous les employés
 router.get("/getAllEmployees", async (req, res) => {

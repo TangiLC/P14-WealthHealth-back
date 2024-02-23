@@ -1,5 +1,6 @@
-# Backe-end du projet 14 OpenClassrooms (Wealth Health HRnet)
+# Back-end du projet 14 OpenClassrooms (Wealth Health HRnet)
 
+![Wealth Health Logo](./data/WH_logo.png)
 Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end.
 
 ## Prérequis DOCKER
