@@ -9,7 +9,7 @@ Ce back-end simplifié permet l'accès et la modification d'une base de données
 [![npm-v_7.24.1](https://img.shields.io/badge/npm-v_7.24.1-orange?style&logo=npm)](https://docs.npmjs.com/)
 [![NodeJs-v_20.9.0](https://img.shields.io/badge/NodeJs-v_20.9.0-red?style&logo=nodedotjs)](https://nodejs.org/en/docs/)
 [![VSCode-v_1.85.1](https://img.shields.io/badge/VSCode-v_1.85.1-black?style&logo=visual-studio-code)](https://code.visualstudio.com/download)
-[![Docker-V_4.27.2](https://img.shields.io/badge/Docker-4.27.2-blue.svg)](https://www.docker.com/get-started)
+[![Docker-V_4.27.2](https://img.shields.io/badge/Docker-4.27.2-blue.svg?style&logo=Docker)](https://www.docker.com/get-started)
 
 ## Prérequis DOCKER
 
