@@ -83,13 +83,35 @@ router.get("/getByDepartment/:dp", async (req, res) => {
 	}
 });
 
+function generateUniqueId(employeeData) {
+	const firstNameInitials = employeeData.firstName
+		.substring(0, 3)
+		.toUpperCase();
+	const lastNameInitials = employeeData.lastName.substring(0, 3).toUpperCase();
+	const birthYear = new Date(employeeData.dateOfBirth)
+		.getFullYear()
+		.toString()
+		.slice(-2);
+	const birthMonth = (
+		"0" +
+		(new Date(employeeData.dateOfBirth).getMonth() + 1)
+	).slice(-2);
+	const birthDay = ("0" + new Date(employeeData.dateOfBirth).getDate()).slice(
+		-2
+	);
+	const randomChars = Math.random().toString(36).substring(2, 9);
+	const uniqueId = `${firstNameInitials}${lastNameInitials}${birthYear}${birthMonth}${birthDay}${randomChars}`;
+	return uniqueId;
+}
+
 // Route pour ajouter un employé -création de l'id random
 router.put("/add", async (req, res) => {
 	try {
 		const newEmployee = req.body;
+
 		const data = await fs.readFile(filePath, "utf-8");
 		let employees = JSON.parse(data).data;
-		newEmployee.id = Math.random().toString(36).substring(2, 9);
+		newEmployee.id = generateUniqueId(newEmployee);
 		employees.push(newEmployee);
 		await fs.writeFile(filePath, JSON.stringify({ data: employees }, null, 2));
 		res.status(201).json(newEmployee);
