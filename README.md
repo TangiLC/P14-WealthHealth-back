@@ -1,6 +1,6 @@
 # Back-end du projet 14 OpenClassrooms (Wealth Health HRnet)
 
-![Wealth Health Logo](./data/WH_logo.png)
+![Wealth Health Logo](./data/WH_logo.png){:width="100px" height="100px"}
 
 Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end.
 
@@ -24,7 +24,7 @@ Dans le terminal, taper la commande suivante pour créer le build
 docker build -t p14_back .
 ```
 
->...What's Next?
+> ...What's Next?
 
 3. **Lancement de l'application avec DockerCompose**
 
@@ -34,9 +34,9 @@ Dans le terminal, taper la commande suivante pour démarrer l'app dans le contai
 docker-compose up
 ```
 
->*Le back-end containeurisé tourne sur le port 3003*
+> _Le back-end containeurisé tourne sur le port 3003_
 
-______
+---
 
 ## Étapes à suivre Sans Docker
 
@@ -62,12 +62,10 @@ Dans le terminal, lancer la commande
 npm run start
 ```
 
->*Le back-end tourne sur le port 3003 dans votre environnement*
+> _Le back-end tourne sur le port 3003 dans votre environnement_
 
-______
+---
 
 ## Ajout du projet Front-end
 
 Le projet Front-end associé à ce dépôt se trouve ici :[https://github.com/TangiLC/P14-WealthHealth-front](https://github.com/TangiLC/P14-WealthHealth-front)
-
-
