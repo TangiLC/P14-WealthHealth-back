@@ -11,7 +11,7 @@ Ce back-end peut être containeurisé avec Docker. Vous pouvez le télécharger 
 1. **Cloner ce projet**
 
 ```bash
-git clone <https://github.com/TangiLC/P14-WealthHealth-back>
+git clone https://github.com/TangiLC/P14-WealthHealth-back
 ```
 
 2. **Création de l'image avec DockerFile**
@@ -22,7 +22,7 @@ Dans le terminal, lancer la commande
 docker build -t p14_back .
 ```
 
-...What's Next?
+>...What's Next?
 
 3. **Lancement de l'application avec DockerCompose**
 
@@ -32,14 +32,16 @@ Dans le terminal, lancer la commande
 docker-compose up
 ```
 
-**Le back-end containeurisé tourne sur le port 3003**
+>*Le back-end containeurisé tourne sur le port 3003*
+
+______
 
 ## Étapes à suivre Sans Docker
 
 1. **Cloner ce projet**
 
 ```bash
-git clone <https://github.com/TangiLC/P14-WealthHealth-back
+git clone https://github.com/TangiLC/P14-WealthHealth-back
 ```
 
 2. **Mettre à jour les dépendances**
@@ -51,9 +53,19 @@ npm i
 ```
 
 3. **Lancement de l'application**
-   Dans le terminal, lancer la commande
-   ```bash
-   npm run start
-   ```
 
-**Le back-end tourne sur le port 3003 dans votre environnement**
+Dans le terminal, lancer la commande
+
+```bash
+npm run start
+```
+
+>*Le back-end tourne sur le port 3003 dans votre environnement*
+
+______
+
+## Ajout du projet Front-end
+
+Le projet Front-end associé à ce dépôt se trouve ici :[https://github.com/TangiLC/P14-WealthHealth-front](https://github.com/TangiLC/P14-WealthHealth-front)
+
+
