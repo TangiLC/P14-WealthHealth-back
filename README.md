@@ -80,14 +80,14 @@ Le projet Front-end associé à ce dépôt se trouve ici :[https://github.com/Ta
 
 ## Endpoints de l'app
 
-+GET '/getAllEmployees' *récupère la liste de tous les employés*
-+GET '/getByFirstName/:firstName' *récupère la liste des employés prénommés `firstName`*
-+GET '/getBylastName/:lastName' *récupère la liste des employés nommés `lastName`*
-+GET '/getByState/:state' *récupère la liste des employés habitant l'État `state`*
-+GET '/getByDepartment/:dep' *récupère la liste des employés travaillants dans le département `dep`*
-+PUT "/addEmployee" *ajout de l'objet {employee} dans le corps de la requête avec attribution d'un id unique*
-+PATCH '/patchEmployee/:id' *modification de l'objet {employee} identifié par `id`*
-+DELETE '/deleteEmployee/:id' *suppression de l'objet {employee} identifié par `id`*
++ GET '/getAllEmployees' *récupère la liste de tous les employés*
++ GET '/getByFirstName/:firstName' *récupère la liste des employés prénommés `firstName`*
++ GET '/getBylastName/:lastName' *récupère la liste des employés nommés `lastName`*
++ GET '/getByState/:state' *récupère la liste des employés habitant l'État `state`*
++ GET '/getByDepartment/:dep' *récupère la liste des employés travaillants dans le département `dep`*
++ PUT "/addEmployee" *ajout de l'objet {employee} dans le corps de la requête avec attribution d'un id unique*
++ PATCH '/patchEmployee/:id' *modification de l'objet {employee} identifié par `id`*
++ DELETE '/deleteEmployee/:id' *suppression de l'objet {employee} identifié par `id`*
 
 
 
