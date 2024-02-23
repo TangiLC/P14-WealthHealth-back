@@ -1,10 +1,8 @@
 # Back-end du projet 14 OpenClassrooms (Wealth Health HRnet)
 
-![Wealth Health Logo](./data/WH_logo.png)
-
-#### WEALTH HEALTH HR
-
-Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end.
+| Logo                                      | Présentation                                                                                                                                                                         |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Wealth Health Logo](./data/WH_logo.png) | **WEALTH HEALTH HR** Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end. |
 
 [![npm-v_7.24.1](https://img.shields.io/badge/npm-v_7.24.1-orange?style&logo=npm)](https://docs.npmjs.com/)
 [![NodeJs-v_20.9.0](https://img.shields.io/badge/NodeJs-v_20.9.0-green?style&logo=nodedotjs)](https://nodejs.org/en/docs/)
@@ -77,17 +75,13 @@ npm run start
 
 Le projet Front-end associé à ce dépôt se trouve ici :[https://github.com/TangiLC/P14-WealthHealth-front](https://github.com/TangiLC/P14-WealthHealth-front)
 
-
 ## Endpoints de l'app
 
-+ GET '/getAllEmployees' *récupère la liste de tous les employés*
-+ GET '/getByFirstName/:firstName' *récupère la liste des employés prénommés `firstName`*
-+ GET '/getBylastName/:lastName' *récupère la liste des employés nommés `lastName`*
-+ GET '/getByState/:state' *récupère la liste des employés habitant l'État `state`*
-+ GET '/getByDepartment/:dep' *récupère la liste des employés travaillants dans le département `dep`*
-+ PUT "/addEmployee" *ajout de l'objet {employee} dans le corps de la requête avec attribution d'un id unique*
-+ PATCH '/patchEmployee/:id' *modification de l'objet {employee} identifié par `id`*
-+ DELETE '/deleteEmployee/:id' *suppression de l'objet {employee} identifié par `id`*
-
-
-
+- GET `/getAllEmployees` _récupère la liste de tous les employés_
+- GET `/getByFirstName/:firstName` _récupère la liste des employés prénommés `firstName`_
+- GET `/getByLastName/:lastName` _récupère la liste des employés nommés `lastName`_
+- GET `/getByState/:state` _récupère la liste des employés habitants l'État `state`_
+- GET `/getByDepartment/:dep` _récupère la liste des employés travaillants dans le département `dep`_
+- PUT `/addEmployee` _ajout de l'objet {employee} dans le corps de la requête avec attribution d'un id unique_
+- PATCH `/patchEmployee/:id` _modification de l'objet {employee} identifié par `id`_
+- DELETE `/deleteEmployee/:id` _suppression de l'objet {employee} identifié par `id`_
