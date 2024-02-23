@@ -1,0 +1,7 @@
+version: '3'
+services:
+  backend:
+    image: p14_back
+    ports:
+      - "3003:3003"
+    container_name: p14_backend_container
