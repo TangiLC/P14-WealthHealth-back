@@ -7,9 +7,9 @@
 Ce back-end simplifié permet l'accès et la modification d'une base de données employés (data/employees.json) sur le port 3003 pour interagir avec le front-end.
 
 [![npm-v_7.24.1](https://img.shields.io/badge/npm-v_7.24.1-orange?style&logo=npm)](https://docs.npmjs.com/)
-[![NodeJs-v_20.9.0](https://img.shields.io/badge/NodeJs-v_20.9.0-red?style&logo=nodedotjs)](https://nodejs.org/en/docs/)
-[![VSCode-v_1.85.1](https://img.shields.io/badge/VSCode-v_1.85.1-black?style&logo=visual-studio-code)](https://code.visualstudio.com/download)
-[![Docker-V_4.27.2](https://img.shields.io/badge/Docker-4.27.2-blue.svg?style&logo=Docker)](https://www.docker.com/get-started)
+[![NodeJs-v_20.9.0](https://img.shields.io/badge/NodeJs-v_20.9.0-green?style&logo=nodedotjs)](https://nodejs.org/en/docs/)
+[![VSCode-v_1.85.1](https://img.shields.io/badge/VSCode-v_1.85.1-blueviolet?style&logo=visual-studio-code)](https://code.visualstudio.com/download)
+[![Docker-V_4.27.2](https://img.shields.io/badge/Docker-v_4.27.2-blue.svg?style&logo=Docker)](https://www.docker.com/get-started)
 
 ## Prérequis DOCKER
 
@@ -76,3 +76,25 @@ npm run start
 ## Ajout du projet Front-end
 
 Le projet Front-end associé à ce dépôt se trouve ici :[https://github.com/TangiLC/P14-WealthHealth-front](https://github.com/TangiLC/P14-WealthHealth-front)
+
+
+## Endpoints de l'app
+
++GET '/getAllEmployees' *récupère la liste de tous les employés*
+
++GET '/getByFirstName/:firstName' *récupère la liste des employés prénommés >firstName*
+
++GET '/getBylastName/:lastName' *récupère la liste des employés nommés >lastName*
+
++GET '/getByState/:state' *récupère la liste des employés habitant l'État >state*
+
++GET '/getByDepartment/:dep' *récupère la liste des employés travaillants dans le département >dep*
+
++PUT "/addEmployee" *ajout de l'objet {employee} dans le corps de la requête avec attribution d'un id*
+
++PATCH '/patchEmployee/:id' *modification de l'objet {employee} identifié par id*
+
++DELETE '/deleteEmployee/:id' *suppression de l'objet {employee} identifié par id*
+
+
+

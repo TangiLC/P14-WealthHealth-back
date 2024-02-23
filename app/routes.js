@@ -105,7 +105,7 @@ function generateUniqueId(employeeData) {
 }
 
 // Route pour ajouter un employé -création de l'id random
-router.put("/add", async (req, res) => {
+router.put("/addEmployee", async (req, res) => {
 	try {
 		const newEmployee = req.body;
 
@@ -122,7 +122,7 @@ router.put("/add", async (req, res) => {
 });
 
 // Route pour la modification d'une fiche employé (selon id)
-router.patch("/patch/:id", async (req, res) => {
+router.patch("/patchEmployee/:id", async (req, res) => {
 	try {
 		const { id } = req.params;
 		const newData = req.body;
@@ -146,7 +146,7 @@ router.patch("/patch/:id", async (req, res) => {
 });
 
 // Route pour la suppression d'une fiche employé (selon id)
-router.delete("/delete/:id", async (req, res) => {
+router.delete("/deleteEmployee/:id", async (req, res) => {
 	try {
 		const { id } = req.params;
 		const data = await fs.readFile(filePath, "utf-8");
