@@ -10,7 +10,8 @@
 			"street": "789 Cedar St",
 			"city": "Austin",
 			"zipCode": "78701",
-			"state": "Texas"
+			"state": "Texas",
+			"shortState": "TX"
 		},
 		{
 			"id": "EMMGAR890325fg54g8h3j",
@@ -22,7 +23,8 @@
 			"street": "456 Pine St",
 			"city": "Chicago",
 			"zipCode": "60601",
-			"state": "Illinois"
+			"state": "Illinois",
+			"shortState": "IL"
 		},
 		{
 			"id": "OLIMAR911108g6hh74j9k",
@@ -34,7 +36,8 @@
 			"street": "123 Elm St",
 			"city": "Miami",
 			"zipCode": "33130",
-			"state": "Florida"
+			"state": "Florida",
+			"shortState": "FL"
 		},
 		{
 			"id": "JAMBRO870614h5jg22k8l",
@@ -46,7 +49,8 @@
 			"street": "890 Oak St",
 			"city": "Seattle",
 			"zipCode": "98101",
-			"state": "Washington"
+			"state": "Washington",
+			"shortState": "WA"
 		},
 		{
 			"id": "SOPHER850929i3k7k3l4m",
@@ -58,7 +62,8 @@
 			"street": "321 Walnut St",
 			"city": "Los Angeles",
 			"zipCode": "90001",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "JANSMI851210sy3r9b0i3",
@@ -70,7 +75,8 @@
 			"street": "456 Elm St",
 			"city": "Los Angeles",
 			"zipCode": "90001",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "JAMMOR880520a8d6f4b20",
@@ -82,7 +88,8 @@
 			"street": "987 Oak St",
 			"city": "San Francisco",
 			"zipCode": "94102",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "MICWIL900915b5c2e1a98",
@@ -94,7 +101,8 @@
 			"street": "852 Pine St",
 			"city": "Miami",
 			"zipCode": "33101",
-			"state": "Florida"
+			"state": "Florida",
+			"shortState": "FL"
 		},
 		{
 			"id": "EMIWHI820425c3f7g9h18",
@@ -106,7 +114,8 @@
 			"street": "666 1st St",
 			"city": "New York",
 			"zipCode": "10001",
-			"state": "New York"
+			"state": "New York",
+			"shortState": "NY"
 		},
 		{
 			"id": "AMIRAM870730d4e2f8c77",
@@ -118,7 +127,8 @@
 			"street": "147 Cedar St",
 			"city": "Houston",
 			"zipCode": "77002",
-			"state": "Texas"
+			"state": "Texas",
+			"shortState": "TX"
 		},
 		{
 			"id": "RICTAY090112e1f9g3h56",
@@ -130,7 +140,8 @@
 			"street": "890 Wall St",
 			"city": "Seattle",
 			"zipCode": "98101",
-			"state": "Washington"
+			"state": "Washington",
+			"shortState": "WA"
 		},
 		{
 			"id": "MICJOH820720vcpdlxg5x",
@@ -142,7 +153,8 @@
 			"street": "789 Oak St",
 			"city": "San Francisco",
 			"zipCode": "94102",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "EMIWIL930228km57d8z5h",
@@ -154,7 +166,8 @@
 			"street": "101 Pine St",
 			"city": "Chicago",
 			"zipCode": "60601",
-			"state": "Illinois"
+			"state": "Illinois",
+			"shortState": "IL"
 		},
 		{
 			"id": "DAVBRO781105h0jzkkzq1",
@@ -166,7 +179,8 @@
 			"street": "222 Cedar St",
 			"city": "Boston",
 			"zipCode": "02108",
-			"state": "Massachusetts"
+			"state": "Massachusetts",
+			"shortState": "MA"
 		},
 		{
 			"id": "SARMIL870925ojinhe75s",
@@ -178,7 +192,8 @@
 			"street": "333 Maple St",
 			"city": "Seattle",
 			"zipCode": "98101",
-			"state": "Washington"
+			"state": "Washington",
+			"shortState": "WA"
 		},
 		{
 			"id": "RYATAY910318mbv6w56vd",
@@ -190,7 +205,8 @@
 			"street": "444 Pine St",
 			"city": "Austin",
 			"zipCode": "78701",
-			"state": "Texas"
+			"state": "Texas",
+			"shortState": "TX"
 		},
 		{
 			"id": "JESAND800630svprhtf42",
@@ -202,7 +218,8 @@
 			"street": "555 Walnut St",
 			"city": "Miami",
 			"zipCode": "33101",
-			"state": "Florida"
+			"state": "Florida",
+			"shortState": "FL"
 		},
 		{
 			"id": "DANWIL751012d1zh92sff",
@@ -214,7 +231,8 @@
 			"street": "666 Oak St",
 			"city": "Denver",
 			"zipCode": "80202",
-			"state": "Colorado"
+			"state": "Colorado",
+			"shortState": "CO"
 		},
 		{
 			"id": "RACLEE840408im1bgt73p",
@@ -226,7 +244,8 @@
 			"street": "777 Elm St",
 			"city": "Washington",
 			"zipCode": "20001",
-			"state": "District of Columbia"
+			"state": "District of Columbia",
+			"shortState": "DC"
 		},
 		{
 			"id": "LAUCLA890822rrpnr8u5i",
@@ -238,7 +257,8 @@
 			"street": "888 Chestnut St",
 			"city": "Philadelphia",
 			"zipCode": "19103",
-			"state": "Pennsylvania"
+			"state": "Pennsylvania",
+			"shortState": "PE"
 		},
 		{
 			"id": "ETHMAR831114e8r6tpyig",
@@ -250,7 +270,8 @@
 			"street": "999 Cedar St",
 			"city": "San Diego",
 			"zipCode": "92101",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "OLIGAR9201303v3jht5s8",
@@ -262,7 +283,8 @@
 			"street": "111 Oak St",
 			"city": "Portland",
 			"zipCode": "97201",
-			"state": "Oregon"
+			"state": "Oregon",
+			"shortState": "OR"
 		},
 		{
 			"id": "ANDLOP7905087qz0pihvn",
@@ -274,7 +296,8 @@
 			"street": "222 Elm St",
 			"city": "Atlanta",
 			"zipCode": "30301",
-			"state": "Georgia"
+			"state": "Georgia",
+			"shortState": "GE"
 		},
 		{
 			"id": "SOPHER860217djkw3nmm7",
@@ -286,51 +309,60 @@
 			"street": "333 Maple St",
 			"city": "Houston",
 			"zipCode": "77002",
-			"state": "Texas"
+			"state": "Texas",
+			"shortState": "TX"
 		},
 		{
 			"id": "ALIJOH890715g5y3q4s9c",
 			"firstName": "Alicia",
 			"lastName": "Johnson",
 			"dateOfBirth": "1989-07-15",
+			"startDate": "2016-08-15",
 			"department": "Marketing",
 			"street": "951 Maple St",
 			"city": "Los Angeles",
 			"zipCode": "90001",
-			"state": "California"
+			"state": "California",
+			"shortState": "CA"
 		},
 		{
 			"id": "MICCHA851125n9r1s7qf6",
 			"firstName": "Michael",
 			"lastName": "Chang",
 			"dateOfBirth": "1985-11-25",
+			"startDate": "2021-11-02",
 			"department": "Sales",
 			"street": "456 Oak St",
 			"city": "Chicago",
 			"zipCode": "60601",
-			"state": "Illinois"
+			"state": "Illinois",
+			"shortState": "IL"
 		},
 		{
 			"id": "EMAROD920310s7t2pp7q0",
 			"firstName": "Emma",
 			"lastName": "Rodrigez",
 			"dateOfBirth": "1992-03-10",
+			"startDate": "2018-04-28",
 			"department": "Human Resources",
 			"street": "753 Pine St",
 			"city": "New York",
 			"zipCode": "10001",
-			"state": "New York"
+			"state": "New York",
+			"shortState": "NY"
 		},
 		{
 			"id": "WILGAT551028bb0v36w8u",
 			"firstName": "William",
 			"lastName": "Gates",
 			"dateOfBirth": "1955-10-28",
+			"startDate": "1999-09-09",
 			"department": "Engineering",
 			"street": "7400 NE 18th St",
 			"city": "Medina",
 			"zipCode": "98039",
-			"state": "Washington"
+			"state": "Washington",
+			"shortState": "WA"
 		}
 	]
 }
