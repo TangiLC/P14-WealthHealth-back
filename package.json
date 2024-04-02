@@ -1,8 +1,8 @@
 {
-  "name": "P14-WealthHealth",
+  "name": "p14_back",
   "version": "1.0.0",
   "description": "Backend",
-  "main": "index/app.js",
+  "main": "app/index.js",
   "author": "tlc",
   "license": "MIT",
   "devDependencies": {

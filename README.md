@@ -36,7 +36,7 @@ docker build -t p14_back .
 Dans le terminal, taper la commande suivante pour démarrer l'app dans le container
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 > _Le back-end containeurisé tourne sur le port 3003_
